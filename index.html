@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATER</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 7vh;
+            color: rgb(10, 171, 171);
+        }
+            
+.grid{
+    margin: 5vh 0vw 0vw 30vw;
+    width: 30%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 2vw;
+
+}
+.grid>div{
+    color:black;
+    text-align: center;
+    margin-left: 1vw;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.grid>div:nth-child(1){
+    grid-area: 1/1/2/5;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+.grid>div:nth-child(5){
+    background-color: black;
+    color: white;
+}
+.grid>div:nth-child(9){
+    background-color: black;
+    color: white;
+}
+.grid>div:nth-child(13){
+    background-color: black;
+    color: white;
+}
+.grid>div:nth-child(17){
+    background-color: black;
+    color: white;
+}
+.grid>div:nth-child(14){
+    background-color: rgb(227, 17, 17);
+    color: white;
+}
+
+        
+
+    </style>
+</head>
+<body>
+    <h1>
+        Masai Calculator
+    </h1>
+    
+    <div class="grid">
+    
+       
+             <div></div>
+            <div><h2>1</h2></div>
+            <div><h2>2</h2></div>
+            <div><h2>3</h2></div>
+            <div><h2>+</h2></div>
+        
+        
+            <div><h2>4</h2></div>
+            <div><h2>5</h2></div>
+            <div><h2>6</h2></div>
+            <div><h2>-</h2></div>
+        
+        
+            <div><h2>7</h2></div>
+            <div><h2>8</h2></div>
+            <div><h2>9</h2></div>
+            <div><h2>x</h2></div>
+        
+   
+            <div><h2>c</h2></div>
+            <div><h2>0</h2></div>
+            <div><h2>=</h2></div>
+            <div><h2>/</h2></div>
+    
+       
+    </div>
+    
+</body>
+</html>
